@@ -1,4 +1,4 @@
-package day3_test
+package aoc_test
 
 import (
 	"sort"
@@ -279,5 +279,5 @@ func TestRunPt2(t *testing.T) {
 	lines := resources.ReadLines("input.txt")
 	result, err := getWinnings(lines, getHandTypeJoker, cardValuesJoker)
 	assert.NilError(t, err)
-	assert.Equal(t, result, 251502303)
+	assert.Equal(t, result, 250506580)
 }

@@ -1,4 +1,4 @@
-package day3_test
+package aoc_test
 
 import (
 	"fmt"
